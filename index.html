@@ -4,10 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
     <title>Assignment 3</title>
+    <style>
+        * {
+            font-family: "manrope";
+        }
+    </style>
 </head>
-<body>
+<body class="bg-[#f4f4f4]">
 
+    <div class="bg-[#ffffff] pb-12">
     <nav class="hidden sm:flex w-[90%] mx-auto p-4 items-center justify-between">
         <div class="flex gap-2 items-center">
             <div class="bg-[#abef5f] rounded-full p-2">
@@ -26,7 +35,7 @@
             <button class="rounded-full border"><i class="fa-solid fa-magnifying-glass p-3"></i></button>
             <button class="rounded-full border"><i class="fa-solid fa-cart-shopping p-3"></i></button>
             <div class="flex items-center gap-2 bg-[#abef5f] rounded-full px-3">
-                <p class="texl-xl font-bold">Book Consult</p>
+                <a href="#" class="texl-xl font-bold">Book Consult</a>
                 <div class="bg-[#111111] rounded-full">
                     <i class="fa-solid fa-arrow-right -rotate-[45deg] p-2" style="color: white;"></i>
                 </div>
@@ -34,7 +43,53 @@
         </div>
     </nav>
 
+    <section class="text-center w-[90%] mx-auto flex flex-col gap-10">
+        <div>
+            <img src="./assets/banner.png" alt="" class="mx-auto">
+        </div>
+        <p class="text-3xl sm:text-7xl font-extrabold w-[90%] mx-auto">A barn house of this design has a striking appearance</p>
+        <p class="text-lg w-[85%] mx-auto">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+        <div class="flex items-center gap-2 bg-[#abef5f] bg-opacity-50 rounded-full p-3 w-48 mx-auto justify-center">
+            <a href="#" class="texl-xl font-bold">View Details</a>
+            <div class="bg-[#abef5f] rounded-full">
+                <i class="fa-solid fa-arrow-right -rotate-[45deg] p-2"></i>
+            </div>
+        </div>
+    </section>
+</div>
 
+    <section class="bg-[#f4f4f4] mt-8 w-[85%] mx-auto flex flex-col sm:flex-row gap-4 sm:items-center">
+        <div class="flex flex-col gap-4 items-center sm:items-start">
+            <div class="hidden sm:block">
+                <img src="./assets/Vector.png" alt="">
+            </div>
+            <div class="flex items-center gap-2 bg-[#FFFFFF] rounded-full p-3 w-36 justify-center sm:justify-start">
+                <div>
+                    <i class="fa-solid fa-arrow-right p-2"></i>
+                </div>
+                <a href="#" class="texl-xl font-bold">About Us</a>
+            </div>
+            <p class="text-3xl font-extrabold text-center sm:text-left">We design thoughtful, liveable spaces</p>
+            <p class="text-center sm:text-left">The barn house captivates with its blend of rustic charm and  modern sophistication, featuring weathered wood, sleek metal accents.</p>
+            <div class="rounded-xl bg-[white] flex gap-4 p-8 w-[100%]">
+                <img src="./assets/commercial.png" alt="" width="50px" class="self-start">
+                <div>
+                    <p class="text-xl font-bold">Commercial</p>
+                    <p>The barn house captivates with its blend of rustic charm and  modern</p>
+                </div>
+            </div>
+            <div class="rounded-xl bg-[white] flex gap-4 p-8 w-[100%]">
+                <img src="./assets/residential.png" alt="" width="50px" class="self-start">
+                <div>
+                    <p class="text-xl font-bold">Residential</p>
+                    <p>The barn house captivates with its blend of rustic charm and  modern</p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <img src="./assets/Rectangle.png" alt="">
+        </div>
+    </section>
 
 
 
